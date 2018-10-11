@@ -60,7 +60,7 @@ class App extends Component {
   inputFieldCharCountHandler = (event) => {
     var inputValue = event.target.value;
     this.setState({inputText: inputValue});
-  }
+  };
 
   deleteCharItemHandler = (charIndex) => {
     let newChars = [...this.state.inputText.split('')];
